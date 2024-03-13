@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'identifier sur SkillSift</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="topbar">
+        <h2 class="logo">SkillSift</h2>
+    </div> 
+    
+    <div class="body">
+        <h1>Mot de passe oublié</h1><br>
+        <p style="font-weight: 550;" id="getcode">Entrer le code 6 chiffres Envoyé, <a href="forgotpassword.html">Changer.</a></p>
+        <p id="error_code" class="error"></p>
+        <div>
+            <label class="label">Code 6 chiffres</label><br>
+            <input class="input" type="text" id="code_6digits" placeholder="_ _ _  _ _ _" style="text-align: center; " maxlength="6">
+        </div><br><br>
+        <button class="button-shaped" style="border-radius: 4px; outline: none;" id="next" onclick="check_code()">S'identifier</button><br><br>
+        <p class="end"><a href="login.html">Retourner</a></p>
+    </div>
+    <script src="../MainPage/scriptmainpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body {
+    height: 100vh;
+    padding: 27px 9%;
+}
+
+.body h1 {
+    font-size: 29px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 11%;
+    width: 97%;
+}
+
+.logo {
+    color: blue;
+    font-weight: 640;
+}
+
+.body {
+    text-align: center;
+    margin: 5%;
+    justify-content: center;
+}
+
+a {
+    font-weight: 600;
+}
+
+.input {
+    padding: 11px 10px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1.9px;
+    width: 380px;
+}
+
+.button-shaped {
+    width: 380px;
+    height: 50px;
+    border: solid; 
+    border-color: transparent;
+    border-radius: 26px; 
+    font-weight: 550;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.button-shaped:disabled {
+    background-color: rgb(151, 151, 233);
+    cursor: auto;
+}
+
+.button-shaped:disabled:hover {
+    background-color: rgb(151, 151, 233);
+}
+
+.button-shaped:hover {
+    background-color: rgb(35, 35, 250);
+}
+
+.button-shaped:active {
+    background-color: rgb(58, 58, 251);
+} 
+
+label, .end {
+    font-weight: 550;
+}
+
+.body div label{
+    width: 60vh;
+    text-align: left;
+}
+
+#login {
+    outline: none;
+}
+
+.error {
+    color: red;
+    font-weight: 550;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height:  30px;
+    appearance: none;
+    border: solid brown 2px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    appearance: auto;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38px;
+}
+
+.help {
+    position: absolute;
+    width: 380px;
+    right: 35.9%;
+    border: solid 1.5px black;
+    border-top: none;
+    border-bottom: none;
+}
+
+.helpp {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: solid 1.5px black;
+    padding: 6px 10px;
+}
